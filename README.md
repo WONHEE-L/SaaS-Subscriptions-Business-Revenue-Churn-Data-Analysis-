@@ -39,7 +39,7 @@ The data entity relationship diagram is created in a brief format using three co
 
 <img width="685" height="579" alt="ERD_telcom_churn_data" src="https://github.com/user-attachments/assets/2205ec07-bed8-4550-96bf-253133b4f87f" />
 
-👉 Entity Relationship Diagram (ERD) created on draw.io
+👉 Entity Relationship Diagram (ERD) created on ![draw.io] (https://app.diagrams.net/#G1y4vh79ebs4vfGJNWxkRsVDRH4N54h0nT#%7B%22pageId%22%3A%22xU1NL2t7rYrn2V_qrqSv%22%7D)
 
 👉 SQL query for data preparation: cleaning, validation, transformation and analysis + GitHub
 
@@ -48,7 +48,6 @@ The data entity relationship diagram is created in a brief format using three co
 
 
 <img width="1039" height="639" alt="telco_executive_dashboard" src="https://github.com/user-attachments/assets/f1b47b05-9c23-49ca-949b-9fb63bb32018" />
-
 
 
 - Churn remains a significant growth constraint: A 26.56% churn rate means more than one in four customers leave. Competition and higher monthly charges are the primary drivers, indicating weak price-value perception.
