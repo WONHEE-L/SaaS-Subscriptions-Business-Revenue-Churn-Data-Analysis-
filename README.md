@@ -46,6 +46,9 @@ The data entity relationship diagram is created in a brief format using three co
 
 ## 4. Executive Summary 
 
+<img width="1039" height="639" alt="telco_executive_dashboard" src="https://github.com/user-attachments/assets/f1b47b05-9c23-49ca-949b-9fb63bb32018" />
+
+
 - Churn remains a significant growth constraint: A 26.56% churn rate means more than one in four customers leave. Competition and higher monthly charges are the primary drivers, indicating weak price-value perception.
   **Action**: Benchmark competitor offers, strengthen value-based pricing, and introduce targeted retention incentives for high-charge customers.
   
@@ -70,6 +73,8 @@ The data entity relationship diagram is created in a brief format using three co
 
 ### 5-1 Revenue & Profitability Analysis
 
+<img width="1039" height="639" alt="telco_executive_dashboard" src="https://github.com/user-attachments/assets/0d881166-3ac4-4e12-8062-8b4c33a81330" />
+
 - Revenue remains strong but is partially exposed to churn risk. Total revenue is $21.04 million, while $3.97M (approximately 19%) is at risk. Gross revenue of $21.06M was reduced by only $13,438 in refunds, indicating that refunds have minimal impact on overall profitability. Revenue per customer is $3,039.
 - Long-tenure customers are the primary revenue engine. Customers with more than four years of tenure contribute 65% of total revenue, demonstrating the significant financial value of long-term retention. Within this segment, two-year contract customers alone generate 37% of total revenue, showing that contractual commitment and customer longevity are closely connected to revenue stability.
 - Revenue is concentrated among highly engaged, high-value customers. Loyal lifecycle customers, platinum-value customers and customers with high service adoption collectively account for 54% of total revenue. This indicates that profitability depends heavily on customers who maintain long relationships, purchase multiple services and generate above-average lifetime value.
@@ -78,6 +83,9 @@ The data entity relationship diagram is created in a brief format using three co
 👉 Revenue Dashboard on Tableau + Link 
 
 ### 5-2 Customer Churn & Retention Analysis
+
+<img width="1166" height="637" alt="telco_churn_dashboard" src="https://github.com/user-attachments/assets/bc245d47-a392-47f3-8636-4f3918ed297f" />
+
 
 - Churn represents a material financial risk. Of 6,923 customers, 1,839 have churned, producing a 26.56% churn rate, $3.65 million in lost revenue and $3.97 million in remaining at-risk revenue.
 - The first six months are the most vulnerable stage. Early-tenure customers account for 41% of churned customers, while new lifecycle customers show the highest churn rate at 53%. Although their current revenue contribution is lower, this pattern limits future customer lifetime value.
@@ -91,6 +99,9 @@ The data entity relationship diagram is created in a brief format using three co
 
 ### 5-3 Customer Segments Analysis
 
+<img width="1169" height="628" alt="telco_customer_dashboard" src="https://github.com/user-attachments/assets/baad7103-4774-4e98-8123-80faf92dd270" />
+
+
 - Customer value is strongly linked to retention and lifetime economics. The average estimated CLV is $2,284, and high-value customers represent 25% of the customer base with a relatively low 14.85% churn rate, indicating that higher-value segments tend to be more stable and financially durable.
 - Lower-value customers show weaker long-term potential. Customer value tiers with higher churn rates also show lower CLV estimation, suggesting that churn risk and limited revenue depth are concentrated in less valuable customer groups.
 - Family status reveals clear revenue concentration. Couples without dependents generate the highest revenue at $8.7M and contain the largest loyal customer base, while singles without dependents contribute around $7M, making these household profiles major revenue anchors.
@@ -101,6 +112,9 @@ The data entity relationship diagram is created in a brief format using three co
 👉Customer Segments Performance Dashboard on Tableau + Link 
 
 ### 5-4 Services Adoption Analysis
+
+<img width="1169" height="627" alt="telco_service_dashboard" src="https://github.com/user-attachments/assets/e19def46-c73c-44eb-b2b6-f93cdf7d8dcf" />
+
 
 - Service adoption is a major revenue engine. Across 6,923 customers, average adoption is 5.17 services, while multi-service customers generate 84.98% of the $21.04 million total revenue. High-adoption customers represent 46.94% of the customer base.
 - Value and engagement are strongly connected. Platinum customers with high service adoption contribute 56% of revenue, showing that the most valuable relationships are concentrated among customers using multiple products.
@@ -138,7 +152,9 @@ The data entity relationship diagram is created in a brief format using three co
 
 - The dataset does not include a date column, which limits the ability to analyze historical trends or measure revenue growth on a month-over-month (MoM) or year-over-year (YoY) basis.
 - Customer Lifetime Value (CLV) is an estimate based on a simplified, business-oriented formula because the dataset does not contain profit margin, customer acquisition cost, or complete historical transaction data.
+
   For this analysis, CLV is calculated as: **Estimated CLV = Monthly Charge * Tenure In Months**
+  
 - The period in Tenure In Months represents the total months retained in the telecom company, and it is used as a customer lifetime value. 
 - The Stakeholders referenced in the strategic recommendations are hypothetical and were assigned based on a simulated telecom company scenario. They do not represent confirmed stakeholders from an actual telecom company.
 
@@ -147,6 +163,7 @@ The data entity relationship diagram is created in a brief format using three co
 - **Data Preparation**: Excel & Power Query Editor, SQLite, Python, VS Code
 - **BI tool**:  Tableau
 - **AI-assisted**: ChatGPT, Copilot, Gemini
+
 
   👩‍💻 Welcome constructive feedbacks or opinions on my project.
 
