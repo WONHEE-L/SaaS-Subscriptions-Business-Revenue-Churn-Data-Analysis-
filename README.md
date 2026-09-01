@@ -21,7 +21,8 @@ The telco customer churn dataset contains fictional company data that provides h
 
 It provides valuable multifaceted customer data, including their demographics, geographical location, adoption of multiple services, and churn status. The dataset allows us to identify the key factors influencing customer churn and develop a strategic approach to increase the retention rate. The dataset supports achieving business goals that improve revenue growth and customer retention by understanding root causes of churn, customer segmentation, service adoption and usage patterns. The data source from Kaggle originated from the IBM TechXchange Community blog.
 
-👉 Source Dataset from ![Kaggle](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data)
+👉 Source Dataset from Kaggle: 
+https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data
 
 👉 Data cleaning log document included a data dictionary + Link
 
@@ -69,7 +70,7 @@ The data entity relationship diagram is created in a brief format using three co
 - Retention strategies should reflect customer value: Bronze customers have the highest churn rate at 45.23% but the lowest estimated CLV, while Platinum customers have lower churn at 14.85% but the highest CLV.
   **Action**: Use scalable, low-cost retention for Bronze customers and high-touch, proactive account management for Platinum customers.
 
-👉 Executive Summary Dashboard on Tableau + ![Link](https://public.tableau.com/app/profile/wonhee.lee/viz/TelecomExecutiveSummaryDashboard/ExecutiveSummary)
+👉 Executive Summary Dashboard on Tableau + Link: https://public.tableau.com/app/profile/wonhee.lee/viz/TelecomExecutiveSummaryDashboard/ExecutiveSummary
 
 
 ## 5. Insights Deep Dive
@@ -132,7 +133,8 @@ The data entity relationship diagram is created in a brief format using three co
 - High adoption produces superior economics. This tier generates $15.78 million, revenue per customer of $4,857, and estimated CLTV of $3,837. However, the medium-adoption tier records the highest churn rate at 40.9%, revealing a vulnerable transition stage.
 - Streaming bundles show strong monetization. Customers using all three streaming services represent 23.69% of customers but contribute 41.29% of revenue, with revenue per customer exceeding $5,295.
 
-👉 Service Adoption Performance Dashboard on Tableau + ![Link](https://public.tableau.com/app/profile/wonhee.lee/viz/ServiceAdoptionPerformanceDashboard/ServiceAdoptionAnalysis)
+👉 Service Adoption Performance Dashboard on Tableau 
+
 
 ## 6. Strategic Recommendations
 
