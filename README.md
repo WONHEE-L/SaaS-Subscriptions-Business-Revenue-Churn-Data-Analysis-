@@ -21,6 +21,8 @@ The telco customer churn dataset contains fictional company data that provides h
 
 It provides valuable multifaceted customer data, including their demographics, geographical location, adoption of multiple services, and churn status. The dataset allows us to identify the key factors influencing customer churn and develop a strategic approach to increase the retention rate. The dataset supports achieving business goals that improve revenue growth and customer retention by understanding root causes of churn, customer segmentation, service adoption and usage patterns. The data source from Kaggle originated from the IBM TechXchange Community blog.
 
+👉 Source Dataset from ![Kaggle](https://www.kaggle.com/datasets/shilongzhuang/telecom-customer-churn-by-maven-analytics/data)
+
 👉 Data cleaning log document included a data dictionary + Link
 
 
@@ -67,7 +69,7 @@ The data entity relationship diagram is created in a brief format using three co
 - Retention strategies should reflect customer value: Bronze customers have the highest churn rate at 45.23% but the lowest estimated CLV, while Platinum customers have lower churn at 14.85% but the highest CLV.
   **Action**: Use scalable, low-cost retention for Bronze customers and high-touch, proactive account management for Platinum customers.
 
-👉 Executive Summary Dashboard on Tableau + Link 
+👉 Executive Summary Dashboard on Tableau + ![Link](https://public.tableau.com/app/profile/wonhee.lee/viz/TelecomExecutiveSummaryDashboard/ExecutiveSummary)
 
 
 ## 5. Insights Deep Dive
@@ -84,13 +86,12 @@ The data entity relationship diagram is created in a brief format using three co
 - Revenue is concentrated among highly engaged, high-value customers. Loyal lifecycle customers, platinum-value customers and customers with high service adoption collectively account for 54% of total revenue. This indicates that profitability depends heavily on customers who maintain long relationships, purchase multiple services and generate above-average lifetime value.
 - Refund exposure is financially small but concentrated among existing customers. The refund rate is only 0.06%, yet approximately 80% of refunds involve retained customers. High-service-adoption customers account for 53% of refunds, while gold customers represent the largest refund share at 34.69%.
 
-👉 Revenue Dashboard on Tableau + Link 
+👉 Revenue Dashboard on Tableau 
 
 ### 5-2 Customer Churn & Retention Analysis
 
 
 <img width="1166" height="637" alt="telco_churn_dashboard" src="https://github.com/user-attachments/assets/bc245d47-a392-47f3-8636-4f3918ed297f" />
-
 
 
 - Churn represents a material financial risk. Of 6,923 customers, 1,839 have churned, producing a 26.56% churn rate, $3.65 million in lost revenue and $3.97 million in remaining at-risk revenue.
@@ -101,13 +102,12 @@ The data entity relationship diagram is created in a brief format using three co
 - Contract flexibility carries significant churn risk. Month-to-month customers have a 46% churn rate and represent over 88% of all churn, far exceeding longer-term contracts.
 - Risk is financially concentrated. The high-risk, high-value segment contains 346 customers and exposes $2.28 million, making it the most commercially significant churn segment.
 
-👉 Customer churn and retention Dashboard on Tableau + Link 
+👉 Customer churn and retention Dashboard on Tableau  
 
 ### 5-3 Customer Segments Analysis
 
 
 <img width="1169" height="628" alt="telco_customer_dashboard" src="https://github.com/user-attachments/assets/baad7103-4774-4e98-8123-80faf92dd270" />
-
 
 
 - Customer value is strongly linked to retention and lifetime economics. The average estimated CLV is $2,284, and high-value customers represent 25% of the customer base with a relatively low 14.85% churn rate, indicating that higher-value segments tend to be more stable and financially durable.
@@ -117,13 +117,12 @@ The data entity relationship diagram is created in a brief format using three co
 - Single, low-data-usage customers represent a broad growth pool. This segment has the largest customer count at 1,342 and the highest total service count at 7,747, indicating substantial embedded revenue potential.
 - Tenure risk is front-loaded. Early-tenure customers account for 19.38% of total customers in high-risk segments, while customers over four years show much lower high-risk density despite having the largest customer base.
 
-👉Customer Segments Performance Dashboard on Tableau + Link 
+👉 Customer Segments Performance Dashboard on Tableau  
 
 ### 5-4 Services Adoption Analysis
 
 
 <img width="1169" height="627" alt="telco_service_dashboard" src="https://github.com/user-attachments/assets/e19def46-c73c-44eb-b2b6-f93cdf7d8dcf" />
-
 
 
 - Service adoption is a major revenue engine. Across 6,923 customers, average adoption is 5.17 services, while multi-service customers generate 84.98% of the $21.04 million total revenue. High-adoption customers represent 46.94% of the customer base.
@@ -133,7 +132,7 @@ The data entity relationship diagram is created in a brief format using three co
 - High adoption produces superior economics. This tier generates $15.78 million, revenue per customer of $4,857, and estimated CLTV of $3,837. However, the medium-adoption tier records the highest churn rate at 40.9%, revealing a vulnerable transition stage.
 - Streaming bundles show strong monetization. Customers using all three streaming services represent 23.69% of customers but contribute 41.29% of revenue, with revenue per customer exceeding $5,295.
 
-👉 Service Adoption Performance Dashboard on Tableau + Link 
+👉 Service Adoption Performance Dashboard on Tableau + ![Link](https://public.tableau.com/app/profile/wonhee.lee/viz/ServiceAdoptionPerformanceDashboard/ServiceAdoptionAnalysis)
 
 ## 6. Strategic Recommendations
 
