@@ -39,12 +39,16 @@ This project aims to translate raw data into actionable insights with recommenda
 
 The entity relationship diagram (ERD) is created in a simplified format with primary keys and foreign keys in one-to-many relationships, which helps preserve each table’s grain and prevents duplicates in MRR.
 
+<img width="454" height="583" alt="v_saas_ERD" src="https://github.com/user-attachments/assets/744c4552-f971-47a0-9e53-916f76c701c3" />
+
 
 👉 Entity Relationship Diagram (ERD) created on draw.io
 
 ## 4. Revenue Analysis on Nov. 2025
 
 👉 Tableau Dashboard: Revenue Analysis
+<img width="1040" height="641" alt="saas_revenue" src="https://github.com/user-attachments/assets/99b33cd8-6ad6-4c7c-af3e-1ccdd95dfd4e" />
+
 
 * Ending MRR reached $2.68M at a steady monthly growth rate of 1.22%, which is supported by $32.3K in Net New MRR. The growth is driven by new acquisitions, so new-logo MRR is the primary growth driver, indicating limited expansion within the existing customer base.
 * Revenue leakage totalled $173.3K in churned MRR, representing the largest negative component of the MRR bridge. This signals an opportunity to strengthen retention, renewal management, and proactive customer-success interventions.
